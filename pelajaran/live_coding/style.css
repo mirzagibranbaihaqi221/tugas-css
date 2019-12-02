@@ -1,0 +1,50 @@
+
+body{
+
+	 margin: 0;
+}
+
+
+#header{
+
+	background: #333;
+	padding :30px;
+
+}
+.bg-masjid{
+	position: absolute;
+	right: 30px;
+	top: 4px;
+
+}
+#navbar {
+
+	background: #666;
+}
+#navbar span{
+	display: inline-block;
+}
+#navbar > span > a {
+	display: inline-block;
+	padding: 10px;
+	border-right: 1px solid #aaa;
+	color: white;
+	text-decoration: none;
+}
+#navbar > span:hover .drop-wrapper a {
+	display: block;
+}
+.drop-wrapper{
+position: absolute;
+transform: translateX(-6px);
+}
+
+.drop-wrapper a{
+	display: none;
+	padding: 10px 20px 10px 10px;
+	background:#666;
+	border-bottom: 1px solid #333;
+	color: white;
+	text-decoration: none;
+
+}

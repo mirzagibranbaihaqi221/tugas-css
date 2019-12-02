@@ -1,0 +1,127 @@
+	
+body{
+		margin: 0;
+		font-family: sans-serif;
+	}
+	
+	#header {
+		background: #333;
+		padding: 35px 20px;
+	}
+	
+	.gbr {
+		position: absolute;
+		right: 30px;
+		top: 13px;
+	}
+	
+	#navbar {
+		background:#666;
+	}
+	
+	#navbar span{
+		display: inline-block;
+		margin-left: -5px;
+	}
+	
+	#navbar span:hover{
+			background: #333;
+	}
+	
+	#navbar span > a{
+		display: inline-block;
+		padding: 15px;
+		border-right: 1px solid #333;
+		color:#fff;
+		text-decoration: none;
+	}
+	
+	#navbar span:hover .dpw a{
+		display: block;
+	}
+	
+	.dpw {
+		position: absolute;
+		transform: translateX(-1px);
+	}
+	
+	.dpw a{
+		display: none;
+		padding: 15px 30px;
+		background: #666;
+		border-bottom: 1px solid #333;
+		color: #fff;
+		text-decoration: none;
+	}
+	
+	.dpw a:hover {
+			background: #3333;
+	}
+	
+	.main {
+		display: flex;
+	}
+	.content {
+		width: 70%;
+		background: #fff;
+		display: inline-block;
+		padding: 10px 0px 80px;
+	}
+	.bab {
+		border-bottom:2px solid #ccc;
+		overflow: hidden;
+		margin: 0 30px;
+		padding: 40px 0;
+		display: flex;
+	}
+	.img {
+		width: 150px;
+		padding: 75px 0px;
+		display: inline-block;
+		background: #ddd;
+		float: left;
+	}
+	.subbab {
+		padding: 0px 25px;
+		display: inline-block;
+		width: 80%;
+	}
+	.subh {
+		display: block;
+		margin: 0 0 10px;
+	}
+	.ringkas {
+		display: block;
+		margin-bottom: 20px;
+		color: #777;
+	}
+	.sidebar{
+	width: 30%;
+	background: #e5e5e5;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 30px;
+	box-sizing: border-box;
+	}
+	.sidebar h3 {
+		border-bottom: 2px solid #ccc;
+		padding: 20px 0px 10px;
+	}
+	.sidelink span {
+		display: block;
+		margin: 20px 10px;
+	}
+	.footer {
+		padding: 20px;
+		background: #000;
+		color: #fff;
+		text-align: center;
+	}
+	a {
+		text-decoration: none;
+		color: #f70;
+	}
+	.remo {}
+	.subbab p{
+		display: inline-block;
+	}
